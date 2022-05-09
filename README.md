@@ -46,3 +46,15 @@ You can view the web page here:
 	>>	Contained the basic detail of the profile.
 
 ================================================================
+
+These are the following page are required in First Phase of designing:
+1- Landing Page
+2- SignUp Page
+3- Login page
+4- Try Now Page
+5- After login Ccomes- Dashboard Page >>
+	- Admin Control Dash Board
+	- User COntrol Dash Board
+6- USR/Vew and Edit Page
+
+Neew a log for the website.
