@@ -1,8 +1,5 @@
 /**
-* Template Name: Lumia - v4.7.0
-* Template URL: https://bootstrapmade.com/lumia-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* Main Template JS Name: Communicator-0.1
 */
 (function() {
     "use strict";
