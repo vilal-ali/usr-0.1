@@ -5,24 +5,21 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>USR-Home</title>
+  <title>Communicate</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
   <link href="static/img/favicon.png" rel="icon">
   
-  <!-- Google Fonts 
+  <!-- Google Fonts
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   -->
-
+  
   <!-- bootstrap CSS Files -->
-  <link href="static/bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="static/bootstrap/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="static/bootstrap/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="static/bootstrap/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="static/bootstrap/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+  <link href="static/bootstrap-5.3/css/bootstrap.css" rel="stylesheet">
+  <link href="static/bootstrap-5.3/css/bootstrap-icons.css" rel="stylesheet">
+  
   <!-- Template Main CSS File -->
   <link href="static/css/style.css" rel="stylesheet">
 
@@ -31,32 +28,31 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center">
+  <header id="header" class="fixed-top">
+    <div class="container-lg d-flex align-items-center">
 
       <div class="logo me-auto">
-        <h1><a href="index.html">USR</a></h1>
+        <h1><a href="index.html">Communicator</a></h1>
         <!-- Uncomment below if you prefer to use an image logo 
         <a href="index.html"><img src="static/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
       <!-- Start navbar -->
-      <nav id="navbar" class="navbar order-last order-lg-0">
+      <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#features">Features</a></li>
-          <li><a class="nav-link scrollto " href="#research">Research</a></li>
           <li><a class="nav-link scrollto" href="#people">People</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact US</a></li>
           <li class="dropdown"><a href="#"><span>Help</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">FAQ</a></li>
               <li><a href="#">Quick Start</a></li>
-              <li><a href="#">Signup</a></li>
+              <li><a href="#">Contribute</a></li>
             </ul>
         </li>
-        <li><a class="nav-link scrollto" href="#"><h5><span class="badge rounded-pill bg-warning text-dark">Try Now</span></h5></a></li>
-        <li><a class="nav-link scrollto" href="#"><h5><span class="badge rounded-pill bg-warning text-dark">Sign Up</span></h5></a></li>
+        <li><a class="nav-link scrollto" href="#"><h4><span class="badge rounded-pill bg-warning text-dark">Try Now</span></h4></a></li>
+        <li><a class="nav-link scrollto" href="#"><h4><span class="badge rounded-pill bg-warning text-dark">Contribute</span></h4></a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
@@ -65,52 +61,111 @@
   </header>
   <!-- End Header -->
 
-  <main id="main">
-    <!-- ======= What We Do Section ======= -->
-    <section id="what-we-do" class="what-we-do">
-      <div class="container">
-        <div class="section-title"></div>
-      </div>
-    </section><!-- End What We Do Section -->
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center ">
+    <div class="container text-center text-md-left" data-aos="fade-up">
+      <h1>Welcome to <span>Communicator</span></h1>
+      <h2></h2>
+      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+    </div>
+  </section>
+  <!-- End Hero -->
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+  <main id="main">
+    <!-- ======= Context Section ======= -->
+    <section id="what-we-do" class="what-we-do section-bg">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-8 pt-4 pt-lg-0">
-            <div class="row">
-              <div class="col-lg-12 pt-4 pt-lg-0">
-                <h3>About Us</h3>
-                <div class="row icon-boxes">
-                  <div class="col-md-12">
-                    <i class="bx bx-receipt"></i>
-                    <h4>NLP Project</h4>
-                    <p class="text-justify">Universal Semantic Representation (USR) captures the meaning expressed by a sentence in a discourse. Any sentence in any language can be represented via its USR which makes it more meaningful. It helps the user in understanding the grammatical connections better, which further translates to better language learning experience.</p>
-                    <p class="text-justify">Our project is a web application that allows users to add and import any text and generate its USR. Every sentence is divided into word chunks which are editable. Inter-sentence and Intra-sentence connections are also shown for the benefit of the user. </p>
-                  </div>
+        <div class="section-title">
+          <h2>Context</h2>
+          <p></p>
+        </div>
+        <div class="row icon-boxes">
+          <div class="col-md-12">
+            <i class="bx bx-receipt"></i>
+            <p class="text-justify">The aim is to develop a <b>Language Communicator Tool</b>. This tool is proposed to be designed to take the semantic representation of discourse as input and return natural language discourse as output. This has two major components: </p>
+            <ol type="A">
+              <li>An authoring tool that guides the author for expressing thoughts in an unambiguous and explicit way</li>
+              <li>An aggregate of language generators that use the unambiguous text given by the author for multiple target language generation with minimal loss of information.</li>
+            </ol>         
+            <p class="text-justify">
+              The input for the Language Communicator is Universal Semantic Representation (USR) which is designed based on Paninian Grammar. The uniqueness of USR is that they are not bound to syntax of any language. Thus they are universal and unambiguous in nature. Once any text is represented through USR, that representation will be used by the generators for an effective and faithful multiple language generation. 
+            </p>
+            <p class="text-justify">
+              The input for the Language Communicator is Universal Semantic Representation (USR) which is designed based on Paninian Grammar. The uniqueness of USR is that they are not bound to syntax of any language. Thus they are universal and unambiguous in nature. Once any text is represented through USR, that representation will be used by the generators for an effective and faithful multiple language generation. 
+            </p>
+            <ul>
+              <li>Allow the writer to correct the analysis</li>
+              <li>Provide the writer possible options for making corrections</li>
+              <li>Learn from the writer’s correction and feedback</li>
+              <li>Rectify errors in run-time</li>
+            </ul> 
+          </div>
+        </div>
+        <div class="row icon-boxes">
+          <div class="col-md-12">
+            <i class="bx bx-receipt"></i>
+            <h4>Communicator Tool Flow:</h4>
+            <div class="col-lg-6">
+              <img src="static/img/communicator-flow.png" class="img-fluid text-center" alt="">
+            </div>
+            <br>
+          </div>
+        </div>
+        <div class="row icon-boxes">
+          <div class="col-md-12">
+            <h4>Multi-Step Action:</h4>
+            <div class="col-lg-12">
+              <ol type="1">
+                <li>Input source text</li>
+                <li>Run a Paninian parser to produce an analysis of the text called an Universal Semantic Representation (USR). The USR explicitly marks all syntactico-semantic relations that include.</li>
+                <ol type="a">
+                  <li>Karaka relations</li>
+                  <li>Relations across verbs</li>
+                  <li>Noun and its modifier relations (as in adjective-noun pair, compound nouns)</li>
+                  <li>Other discourse related semantic relations such as co-referencing, focus, presupposition and so on.</li>
+                </ol> 
+              </ol>         
+            </div>
+            <br>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End What We Do Section -->
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about ">
+      <div class="container">
+          <div class="row">
+            <div class="col-lg-12 pt-4 pt-lg-0">
+              <h3>About</h3>
+              <div class="row icon-boxes">
+                <div class="col-md-12">
+                  <i class="bx bx-receipt"></i>
+                  <h4>About the Communicate Project</h4>
+                  <p class="text-justify">The aim is to develop a <b>Language Communicator Tool</b>. This tool is proposed to be designed to take the semantic representation of discourse as input and return natural language discourse as output. This has two major components:</p>
+                  <ol type="A">
+                    <li>An authoring tool that guides the author for expressing thoughts in an unambiguous and explicit way;</li>
+                    <li>An aggregate of language generators that use the unambiguous text given by the author for multiple target language generation with minimal loss of information.</li>
+                  </ol>  
+                </div>
+                
+              </div>
+              <div class="row icon-boxes">
+                <div class="col-md-12">
+                  <i class="bx bx-receipt"></i>
+                  <h4>About the Language Communicator Project</h4>
+                  <p class="text-justify">Universal Semantic Representation....................</p>
+                  <p class="text-justify">Universal Semantic Representation....................</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 pt-4 pt-lg-0">
-            <div class="card border-dark mb-4">
-              <div class="card-header">News Feed</div>
-              <div class="card-body text-dark">
-                <h5 class="card-title">News Feed-1</h5>
-                <p class="card-text">USR Comming Soon</p>
-                <h5 class="card-title">News Feed-2</h5>
-                <p class="card-text">AI Comming Soon</p>
-                <h5 class="card-title">News Feed-3</h5>
-                <p class="card-text">AI Comming Soon</p>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
-    </section><!-- End About Section -->
+    </section>
+    <!-- End About Section -->
 
     <!-- ======= Fetures Section ======= -->
-    <section id="features" class="services section-bg text-justify">
+    <section id="features" class="services section-bg text-justify bg-secondary">
       <div class="container">
         <div class="section-title">
           <h2>Fetures</h2>
@@ -120,74 +175,65 @@
           <div class="col-md-6">
             <div class="icon-box">
               <i class="bi bi-briefcase"></i>
-              <h4><a href="#">Content Required</a></h4>
-              <p>Language Technologies Research Center at IIIT-H is involved in cutting-edge technological research on both basic and applied aspects of Linguistic Technologies.</p>
+              <h4><a href="#">Authoring Interface</a></h4>
+              <p>Pictorial representation of your with try now button.</p>
+              <a class="nav-link scrollto" href="#"><h3><span class="badge rounded-pill bg-warning text-dark">Try Now</span></h3></a>
             </div>
           </div>
           <div class="col-md-6 mt-4 mt-lg-0">
             <div class="icon-box">
               <i class="bi bi-card-checklist"></i>
-              <h4><a href="#">Content Required</a></h4>
-              <p>Language Technologies Research Center at IIIT-H is involved in cutting-edge technological research on both basic and applied aspects of Linguistic Technologies.</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4">
-            <div class="icon-box">
-              <i class="bi bi-bar-chart"></i>
-              <h4><a href="#">Content Required</a></h4>
-              <p>Language Technologies Research Center at IIIT-H is involved in cutting-edge technological research on both basic and applied aspects of Linguistic Technologies.</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4">
-            <div class="icon-box">
-              <i class="bi bi-binoculars"></i>
-              <h4><a href="#">Content Required</a></h4>
-              <p>Language Technologies Research Center at IIIT-H is involved in cutting-edge technological research on both basic and applied aspects of Linguistic Technologies.</p>
+              <h4><a href="#">Multi-lingual Generator</a></h4>
+              <p>Generate the targate language</p>
+              <a class="nav-link scrollto" href="#"><h3><span class="badge rounded-pill bg-warning text-dark">Try Now</span></h3></a>
             </div>
           </div>
         </div>
       </div>
-    </section><!-- End Fetures Section -->
-
-    <!-- ======= Research Section ======= -->
-    <section id="research" class="services section-bg text-justify">
+    </section>
+    <!-- End Fetures Section -->
+    <!-- ======= Resarch Section ======= -->
+    <section id="what-we-do" class="what-we-do section-bg">
       <div class="container">
         <div class="section-title">
           <h2>Research</h2>
-          <p>Content Required</p>
+          <p></p>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="icon-box">
-              <i class="bi bi-binoculars"></i>
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
               <h4><a href="#">Purpose</a></h4>
-              <p>Language Technologies Research Center at IIIT-H is involved in cutting-edge technological research on both basic and applied aspects of Linguistic Technologies. It is the largest academic centre of speech and language technology in South Asia. LTRC carries out its work through four labs, which work in synergy with each other. </p>
+              <p>Our project is a web application that allows users to add and import any text and generate its USR. Every sentence is divided into word chunks which are editable. Inter-sentence and Intra-sentence connections are also shown for the benefit of the user.</p>
             </div>
           </div>
-          <div class="col-md-4 mt-4 mt-lg-0">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div class="icon-box">
-              <i class="bi bi-binoculars"></i>
+              <div class="icon"><i class="bx bx-file"></i></div>
               <h4><a href="#">Mission</a></h4>
-              <p>Language Technologies Research Center at IIIT-H is involved in cutting-edge technological research on both basic and applied aspects of Linguistic Technologies. It is the largest academic centre of speech and language technology in South Asia. LTRC carries out its work through four labs, which work in synergy with each other. </p>
+              <p>Our project is a web application that allows users to add and import any text and generate its USR. Every sentence is divided into word chunks which are editable. Inter-sentence and Intra-sentence connections are also shown for the benefit of the user.</p>
             </div>
           </div>
-          <div class="col-md-4 mt-4 mt-lg-0">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div class="icon-box">
-              <i class="bi bi-binoculars"></i>
-              <h4><a href="#">Vision</a></h4>
-              <p>Language Technologies Research Center at IIIT-H is involved in cutting-edge technological research on both basic and applied aspects of Linguistic Technologies. It is the largest academic centre of speech and language technology in South Asia. LTRC carries out its work through four labs, which work in synergy with each other. </p>
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4><a href="#">Vission</a></h4>
+              <p>Our project is a web application that allows users to add and import any text and generate its USR. Every sentence is divided into word chunks which are editable. Inter-sentence and Intra-sentence connections are also shown for the benefit of the user.</p>
             </div>
           </div>
         </div>
       </div>
-    </section><!-- End Fetures Section -->
+    </section>
+    <!-- End What We Do Section -->
 
-    <!-- ======= Team Section ======= -->
+    <!-- ======= People Section ======= -->
     <section id="people" class="team">
       <div class="container">
         <div class="section-title">
           <h2>People</h2>
-          <p>Content Required</p>
+          <p>The USR project is steered and guided by prominent Scientists, Researchers, Undergraduate and Graduate students. The team is highly diverse and is responsible for this project through its collaborative effort.</p>
         </div>
         <div class="row">
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
@@ -329,7 +375,8 @@
         </div>
 
       </div>
-    </section><!-- End Team Section -->
+    </section>
+    <!-- End Team Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact section-bg">
@@ -391,11 +438,13 @@
         </div>
         -->
       </div>
-    </section><!-- End Contact Section -->
-  </main><!-- End #main -->
+    </section>
+    <!-- End Contact Section -->
+  </main>
+  <!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer">
+  <footer id="footer" class="bg-dark">
     <div class="footer-top">
       <div class="container">
         <div class="row">
@@ -454,22 +503,12 @@
         </div>
       </div>
     </div>
-  </footer><!-- End Footer -->
-
+  </footer>
+  <!-- End Footer -->
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- bootstrap JS Files -->
-  <script src="static/bootstrap/purecounter/purecounter.js"></script>
-  <script src="static/bootstrap/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="static/bootstrap/glightbox/js/glightbox.min.js"></script>
-  <script src="static/bootstrap/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="static/bootstrap/swiper/swiper-bundle.min.js"></script>
-  <script src="static/bootstrap/waypoints/noframework.waypoints.js"></script>
-  <script src="static/bootstrap/php-email-form/validate.js"></script>
-
+  
   <!-- Template Main JS File -->
   <script src="static/js/main.js"></script>
 
 </body>
-
 </html>
